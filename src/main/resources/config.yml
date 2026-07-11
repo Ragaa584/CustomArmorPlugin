@@ -1,0 +1,33 @@
+# CustomArmorPlugin Configuration
+
+# Plugin settings
+settings:
+  # Enable debug mode for more detailed logs
+  debug: false
+  
+  # Auto-load armors on startup
+  auto-load: true
+  
+  # Check for updates
+  check-updates: true
+
+# Armor settings
+armor:
+  # Default protection value for armors without specified protection
+  default-protection: 10
+  
+  # Enable glowing effect by default
+  default-glowing: false
+  
+  # Custom model data start value (for 3D models)
+  custom-model-data-start: 1000
+
+# Messages
+messages:
+  prefix: "&6[CustomArmor] &r"
+  no-permission: "&cYou don't have permission to use this command!"
+  armor-not-found: "&cArmor not found: {armor_id}"
+  player-not-found: "&cPlayer not found: {player}"
+  armor-given: "&aYou received: {armor_name}"
+  armor-given-sender: "&aGave {armor_name} to {player}"
+  reloaded: "&aCustomArmor configuration reloaded!"

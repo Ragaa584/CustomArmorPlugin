@@ -1,0 +1,21 @@
+name: CustomArmorPlugin
+version: 1.0.0
+main: com.customarmor.CustomArmorPlugin
+api-version: 1.20
+author: CustomArmor
+description: A plugin for adding custom 3D armor to Minecraft servers
+
+commands:
+  customarmor:
+    description: Main command for custom armor
+    usage: /customarmor <give|list|reload> [args]
+    aliases: [ca, armor]
+    permission: customarmor.use
+
+permissions:
+  customarmor.use:
+    description: Allows using custom armor commands
+    default: op
+  customarmor.admin:
+    description: Allows admin commands
+    default: op
